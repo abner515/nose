@@ -1,0 +1,40 @@
+.fon1{
+    margin: 0;
+    padding: 0;
+    background: url(../img/pai.jpg)no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
+.title2{
+	  font-family: fantasy;
+	  text-align: center;
+	  background: #C5E1A5;
+}
+.img1{
+	width: 100%;
+	height: 30%;
+	border-radius: 10%;
+	-webkit-box-shadow: 10px 10px 5px 2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 2px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 2px rgba(0,0,0,0.75);
+
+}
+.parra{
+	font: oblique bold 120% cursive;
+	background:#E6EE9C; 
+}
+.title{
+	font-size: 50%;
+	background: #9E9E9E;
+	font-family: fantasy;
+	color:#000;
+}
+.gif{
+	width: 200%;
+	height: 100%;
+	border-radius: 10%;
+	-webkit-box-shadow: 10px 10px 5px 6px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 6px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 6px rgba(0,0,0,0.75);
+}

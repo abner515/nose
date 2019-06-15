@@ -1,0 +1,107 @@
+.lofon{
+    margin: 0;
+    padding: 0;
+    background: url(../img/apifon.jpg)no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
+/*01000011 01100001 01101010 01100001 00100000 01100100 01100101 00100000 01010100 01100101 01111000 01110100 01101111 00100000 00101000 01100011 01110101 01100001 01100100 01110010 01100001 01100100 01101111 00100000 01100010 01101100 01100001 01101110 01100011 01101111 00101001*/
+.login-box{
+    width: 300px;
+    height: 410px;
+    background: #ECF0F3;
+    color: #000;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 80px 30px;
+    border-radius: 50px;
+    «background-color: rgb(0,0,255); opacity: 0.9;»
+}
+/*01001100 01101111 01100111 01101111*/
+.login-box .avatar{
+    width: 100px;
+    height: 100px; 
+    border-radius:50%;
+    position: absolute;
+    top:-50px;
+    left: calc(50% - 50px);
+}
+/*01010100 01101001 01110100 01101100 01100101*/
+.login-box h1{
+    margin: 0;
+    padding: 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+/*01110101 01110011 01100101 01110010 01101110 01100001 01101101 01100101 00100000 01111001 00100000 01110000 01100001 01110011 01110011 01110111 01101111 01110010 01100100*/
+.login-box label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: flex;
+}
+/*01100010 01101111 01110100 01101111 01101110*/
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+/*01100011 01101111 01101101 01100101 01101110 01110100 01100001 01110010 01101001 01101111 00100000 01100100 01100101 00100000 01110000 01101100 01100001 01100011 01100101 01100011 01101111 01101100 01100100 01100101 01110010*/
+.login-box input[type="text"],
+.login-box input[type="password"]{
+    border:none;
+    border-bottom: 1px solid #000;
+    background: transparent; 
+    outline: none;
+    height: 40px;
+    color:#000;
+    font-size: 16px;
+}
+/*01100011 01101111 01101101 01100101 01101110 01110100 01100001 01110010 01101001 01101111 00100000 01100100 01100101 01101100 00100000 01100010 01101111 01110100 01101111 01101110*/
+.login-box input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #b80f22;
+    color:#000;
+    font-size: 18px;
+    border-radius: 20px; 
+}
+/*01110000 01110010 01100101 01100111 01110101 01101110 01110100 01100001 01110011 00100000 01100100 01100101 01101100 00100000 01101100 01101111 01100111 01101001 01101110*/
+.login-box a{
+    text-decoration:none;
+    font-size: 12px;
+    line-height: 20px;
+    color: #000; 
+}
+/*01100011 01101111 01101100 01101111 01110010 00100000 01100100 01100101 01101100 00100000 01110000 01110101 01101110 01110100 01100101 01110010 01101111 00100000 01100001 01101100 00100000 01110000 01100001 01110011 01100001 01110010 00100000 01110000 01101111 01110010 00100000 01100101 01101110 01110011 01101001 01101101 01100001*/
+.login-box a:hover{
+    color:#6F7375;
+}
+
+.navaaa{
+    padding-left: 60%;
+
+}
+
+.algo:hover {
+    padding-left: 15%;
+    border: 2px solid #000;
+    border-radius: 20px;
+    padding-right: 15%;
+    color:black;
+    text-decoration: none;
+    transition: all 1s ease;
+    background: #fff;  
+
+}
+
+.algo{
+    color: #fff;
+    font-weight: bold;
+    font-size:25px;
+}
+    
